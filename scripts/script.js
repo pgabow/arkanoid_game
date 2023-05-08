@@ -14,12 +14,10 @@ const music = new Audio()
 const sound = new Audio()
 const sound2 = new Audio()
 const sound3 = new Audio()
-music.src = 'music.mp3'
-sound.src = 'sound.mp3'
-sound2.src = 'sound2.mp3'
-sound3.src = 'sound3.mp3'
-
-sound2.play()
+music.src = 'https://pgabow.github.io/arkanoid_game/sound/music.mp3'
+sound.src = 'https://pgabow.github.io/arkanoid_game/sound/sound.mp3'
+sound2.src = 'https://pgabow.github.io/arkanoid_game/sound/sound2.mp3'
+sound3.src = 'https://pgabow.github.io/arkanoid_game/sound/sound3.mp3'
 
 // Create ball props
 const ball = {
